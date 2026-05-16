@@ -1,0 +1,22 @@
+name: sofa-gdl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pip:
+    - torch==2.3.0
+    - torch-geometric
+    - torch-scatter
+    - torch-sparse
+    - trimesh
+    - polyscope
+    - e3nn
+    - scikit-learn
+    - tqdm

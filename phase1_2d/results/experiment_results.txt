@@ -1,0 +1,11 @@
+Phase 1 Experiment Results
+Gerver reference: 2.2195
+
+Config                    Area     Gap    MaxPen  Params    Sec
+────────────────────────────────────────────────────────────
+bspline_64              1.9900  0.2295   0.00000      66     54
+bspline_128             1.9627  0.2568   0.00008     130     92
+fourier_k32             1.7909  0.4286   0.00000      67     50
+fourier_sym_k32         1.6845  0.5350   0.07495      35     42
+bspline_sym_128         1.5981  0.6214   0.00066      66     88
+bspline_sym_64          1.5821  0.6374   0.00020      34     58
